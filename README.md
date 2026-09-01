@@ -1,5 +1,5 @@
 # CQ_chrY
-Complete Telomere-to-Telomere Assembly of the Y Chromosome in the Chinese Quartet
+T2T Genome Assembly of the Y Chromosome in the Chinese Quartet
 
 01. Genome assemble
    
