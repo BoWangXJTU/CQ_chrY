@@ -1,0 +1,4 @@
+Short Report:
+#Chr	Covered.Rate	Low-conf.Rate	Avg.CRH	Avg.CSH	Avg.CRE(R-AQI)	Avg.CSE(S-AQI)	AQI
+Genome	1.000	0.000	0.058	0.000	0.044(99.563)	0.000(100.000)	99.781
+CQ_chrY_v1.3	1.000	0.000	0.058	0.000	0.044(99.563)	0.000(100.000)	99.781
