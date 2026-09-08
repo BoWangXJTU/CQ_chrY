@@ -14,8 +14,17 @@ samtools index -@ 8 hifi_ont_winnowmap_merge.bam
 export PATH=~/miniconda3/envs/CRAQ/bin:$PATH
 
 perl /data/home/wangbo/software/CRAQ-v1.10/bin/craq -g CQ_chrY_v1.3.fasta -sms hifi_ont_winnowmap_merge.bam -t 48 -D hifi_ont
+
 # Merqury analysis
 ~/data/miniconda3/envs/merqury/bin/meryl k=21 count /data/DATA/ChineseQuartet/RAWDATA/ILM_PCR-free/finished/LCL7_R*.gz output illuminak21.meryl
 
 bash ~/data/miniconda3/envs/merqury/bin/merqury.sh illuminak21.meryl Y_scaffold_assembly.fasta merqury_res_k21
 
+# Juicer
+genome=p_ctg_genome.fasta
+
+bwa index $genome
+
+python generate_site_positions.py DpnII CQ $genome
+
+bash ~/software/juicer-1.6/scripts/juicer.sh -t 96 -g CQ -d ./run_juicer -s "DpnII" -p genome.size -y CQ_DpnII.txt -z $genome -D ~/software/juicer-1.6

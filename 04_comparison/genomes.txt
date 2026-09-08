@@ -1,0 +1,5 @@
+#file	name	tags
+chm13v2.0_chrY_reid.fa	CHM13v2Y	ft:fa;pf:chm13v2.0_chrY_reid.bed;lw:1.5
+CQ_chrY_v1.3.fasta	CQv1.3	ft:fa;lw:1.5
+CN1.v1.0.1_chrY.fasta	CN1v1.0.1	ft:fa;lw:1.5
+YAOv2.0_chrY.fasta	YAOv2.0	ft:fa;lw:1.5
