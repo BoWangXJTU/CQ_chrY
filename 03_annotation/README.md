@@ -10,7 +10,6 @@ We used the Y chromosome region annotation pipeline developed by the T2T-Y conso
 
 This multi-step validation process ensured that the regional annotation boundaries were correctly placed and consistent with the reference.
 
-
 #  Centromere annotation (CenMAP)
 snakemake -c 48 -p --workflow-profile none --configfile config-chrYv1.3.yaml --show-failed-logs --conda-cleanup-pkgs cache
 
@@ -18,3 +17,7 @@ bash hmmer-run.sh CQchrYv1.3/ AS-HORs-hmmer3.3.2-120124.hmm 48 (HOR annotation)
 
 # Gene annotation
 liftoff -g ref_annotation_coding.gff -sc 0.8 -copies -cds -o CQ_v1.3_assembly_chrY_liftoff_0.8_cds.gff -u unmapped_features_0.8_cds.txt -p 48 -f feature_types.txt CQ_chrY_v1.3.fasta chm13v2.0_chrY.fa
+
+# Yq12 annotation
+We used the filterYq12HMMER.py script (https://github.com/Markloftus/PanYChromosome/blob/main/hmmerFilterCode/filterYq12HMMER.py
+) from the PanYChromosome repository to annotate the Yq12 satellite repeat arrays, including DYZ18, DYZ1, and DYZ2, on CQ_chrY v1.3 and other Y assemblies.
