@@ -11,7 +11,7 @@ We used the Y chromosome region annotation pipeline developed by the T2T-Y conso
 This multi-step validation process ensured that the regional annotation boundaries were correctly placed and consistent with the reference.
 
 
-#Centromere annotation (CenMAP)
+#  Centromere annotation (CenMAP)
 snakemake -c 48 -p --workflow-profile none --configfile config-chrYv1.3.yaml --show-failed-logs --conda-cleanup-pkgs cache
 
 bash hmmer-run.sh CQchrYv1.3/ AS-HORs-hmmer3.3.2-120124.hmm 48 (HOR annotation)
