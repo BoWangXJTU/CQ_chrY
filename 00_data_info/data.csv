@@ -1,10 +1,14 @@
-Raw data,,,,,,,
-Run accession,Files,Experiment,Experiment title,Strategy Name,Platform,Sample,Roles in the manuscript
-HRR3210813,HRR3210813.fastq.gz (85.56 GB),HRX2652258,ONT ultra-long sequencing lcl7,WGS,OXFORD_NANOPORE PromethION,HRS2393464 (SAMC7450578),"assembly, evaluation (Figure1,Figure2,Figure3)"
-HRR3210814,HRR3210814_f1.fq.gz (35.96 GB),HRX2652259,Hi-C sequencing lcl7,WGS,MGISEQ-2000,HRS2393464 (SAMC7450578),"assembly, evaluation (HiC contact-map)"
-,HRR3210814_r2.fq.gz (36.06 GB),HRX2652259,Hi-C sequencing lcl7,WGS,MGISEQ-2000,HRS2393464 (SAMC7450578),"assembly, evaluation (HiC contact-map)"
-HRR3210815,HRR3210815_f1.fq.gz (34.51 GB),HRX2652259,Hi-C sequencing lcl7,WGS,MGISEQ-2000,HRS2393464 (SAMC7450578),"assembly, evaluation (HiC contact-map)"
-,HRR3210815_r2.fq.gz (34.09 GB),HRX2652259,Hi-C sequencing lcl7,WGS,MGISEQ-2000,HRS2393464 (SAMC7450578),"assembly, evaluation (HiC contact-map)"
-HRR796538,HRR796538.bam (31.88 GB),HRX565834,Quartet_DNA_ILM_Nova_ARD_LCL7_1_20181108,WGS,Illumina NovaSeq 6000,HRS461831 (SAMC2360041),evaluation (Merqury analysis)
-HRR796539,HRR796539.bam (31.77 GB),HRX565835,Quartet_DNA_ILM_Nova_ARD_LCL7_2_20181108,WGS,Illumina NovaSeq 6000,HRS461831 (SAMC2360041),evaluation (Merqury analysis)
-HRR796690,HRR796690.bam (125.76 GB),HRX582682,Quartet_DNA_Pacbio_Sequel2_GRM_LCL7_CCS,WGS,Pacbio Sequel II,HRS461831 (SAMC2360041),"assembly, evaluation (Figure1,Figure2,Figure3)"
+Raw data,,,,,,,,,
+GSA-Human accession,Run accession,Files,Checksum MD5,Experiment,Experiment title,Strategy Name,Platform,Sample,Roles in the manuscript
+HRA017737,HRR3210813,HRR3210813.fastq.gz (85.56 GB),8399f863568adb38d66dc36e1ca0d0c3,HRX2652258,ONT ultra-long sequencing lcl7,WGS,OXFORD_NANOPORE PromethION,HRS2393464 (SAMC7450578),"assembly, evaluation, (Figure1,Figure2,Figure3,Figure4)"
+HRA017737,HRR3210814,HRR3210814_f1.fq.gz (35.96 GB),e0c8679a57fdb9343f066b9f544172df,HRX2652259,Hi-C sequencing lcl7,WGS,MGISEQ-2000,HRS2393464 (SAMC7450578),"assembly, evaluation (HiC contact-map)"
+HRA017737,,HRR3210814_r2.fq.gz (36.06 GB),8396d6da03e3392b80f53f10ac0a3db5,HRX2652259,Hi-C sequencing lcl7,WGS,MGISEQ-2000,HRS2393464 (SAMC7450578),"assembly, evaluation (HiC contact-map)"
+HRA017737,HRR3210815,HRR3210815_f1.fq.gz (34.51 GB),893eb3b84b90117cdb38e7e2fc8abbb8,HRX2652259,Hi-C sequencing lcl7,WGS,MGISEQ-2000,HRS2393464 (SAMC7450578),"assembly, evaluation (HiC contact-map)"
+HRA017737,,HRR3210815_r2.fq.gz (34.09 GB),f7ce6b6a184eda3540c8eeaf9a7b6362,HRX2652259,Hi-C sequencing lcl7,WGS,MGISEQ-2000,HRS2393464 (SAMC7450578),"assembly, evaluation (HiC contact-map)"
+HRA001859,HRR796538,HRR796538.bam (31.88 GB),Reprocessing after database verification,HRX565834,Quartet_DNA_ILM_Nova_ARD_LCL7_1_20181108,WGS,Illumina NovaSeq 6000,HRS461831 (SAMC2360041),evaluation (Merqury analysis)
+HRA001859,HRR796539,HRR796539.bam (31.77 GB),Reprocessing after database verification,HRX565835,Quartet_DNA_ILM_Nova_ARD_LCL7_2_20181108,WGS,Illumina NovaSeq 6000,HRS461831 (SAMC2360041),evaluation (Merqury analysis)
+HRA001859,HRR796690,HRR796690.bam (125.76 GB),Reprocessing after database verification,HRX582682,Quartet_DNA_Pacbio_Sequel2_GRM_LCL7_CCS,WGS,Pacbio Sequel II,HRS461831 (SAMC2360041),"assembly, evaluation, (Figure1,Figure2,Figure3,Figure4)"
+,,,,,,,,,
+Assembled genome,,,,,,,,,
+GeneBase accession,Review link,In this directory,Checksum MD5,Roles in the manuscript,,,,,
+C_AA501122.1 ,https://ngdc.cncb.ac.cn/genbase/review/524c02841426,CQ_chrY_v1.3.fasta,d1dbd5f45872c7357a96a22ba0d58e2a,"assembly, evaluation, (Figure1,Figure2,Figure3,Figure4)",,,,,
