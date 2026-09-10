@@ -10,5 +10,5 @@ HRA001859,HRR796539,HRR796539.bam (31.77 GB),Reprocessing after database verific
 HRA001859,HRR796690,HRR796690.bam (125.76 GB),Reprocessing after database verification,HRX582682,Quartet_DNA_Pacbio_Sequel2_GRM_LCL7_CCS,WGS,Pacbio Sequel II,HRS461831 (SAMC2360041),"assembly, evaluation, (Figure1,Figure2,Figure3,Figure4)"
 ,,,,,,,,,
 Assembled genome,,,,,,,,,
-GeneBase accession,Review link,In this directory,Checksum MD5,Roles in the manuscript,,,,,
-C_AA501122.1 ,https://ngdc.cncb.ac.cn/genbase/review/524c02841426,CQ_chrY_v1.3.fasta.tar.xz,f006928b5574c3968d1b987e9ad1022d,"assembly, evaluation, (Figure1,Figure2,Figure3,Figure4)",,,,,
+GeneBase accession,Review link,Files,Checksum MD5,Roles in the manuscript,,,,,
+C_AA501122.1 ,https://ngdc.cncb.ac.cn/genbase/review/524c02841426,sequence.fasta,,"assembly, evaluation, (Figure1,Figure2,Figure3,Figure4)",,,,,
