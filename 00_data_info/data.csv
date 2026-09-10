@@ -1,3 +1,4 @@
+Raw data,,,,,,,
 Run accession,Files,Experiment,Experiment title,Strategy Name,Platform,Sample,Roles in the manuscript
 HRR3210813,HRR3210813.fastq.gz (85.56 GB),HRX2652258,ONT ultra-long sequencing lcl7,WGS,OXFORD_NANOPORE PromethION,HRS2393464 (SAMC7450578),"assembly, evaluation (Figure1,Figure2,Figure3)"
 HRR3210814,HRR3210814_f1.fq.gz (35.96 GB),HRX2652259,Hi-C sequencing lcl7,WGS,MGISEQ-2000,HRS2393464 (SAMC7450578),"assembly, evaluation (HiC contact-map)"
