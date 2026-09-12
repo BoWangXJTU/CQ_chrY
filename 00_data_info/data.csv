@@ -11,4 +11,4 @@ HRA001859,HRR796690,HRR796690.bam (125.76 GB),Reprocessing after database verifi
 ,,,,,,,,,
 Assembled genome,,,,,,,,,
 GeneBase accession,Review link,Files,Checksum MD5,Roles in the manuscript,,,,,
-C_AA501122.1 ,https://ngdc.cncb.ac.cn/genbase/review/524c02841426,sequence.fasta,,"assembly, evaluation, (Figure1,Figure2,Figure3,Figure4)",,,,,
+C_AA501122.1 ,https://ngdc.cncb.ac.cn/genbase/review/524c02841426,sequence.gb,49f0c3ed6f9a6ea59fd6439eabc9381a,"assembly, evaluation, (Figure1,Figure2,Figure3,Figure4)",,,,,
